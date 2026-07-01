@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AsterOS</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/icons/terminal-de-codigo.png"
+      type="image/x-icon"
+    />
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <main>
+      <div class="desktop-container">
+        <button class="desktop-btn">
+          <i data-lucide="trash"></i>
+          <span>Trash</span>
+        </button>
+
+        <button class="desktop-btn">
+          <i data-lucide="globe"></i>
+          <span>Browser</span>
+        </button>
+
+        <button class="desktop-btn">
+          <i data-lucide="folder-closed"></i>
+          <span>Explorer</span>
+        </button>
+      </div>
+    </main>
+    <footer>
+      <div class="taskbar-menu">
+        <button class="taskbar-btn" title="AsterOS">
+          <i data-lucide="layout-grid"></i>
+        </button>
+
+        <button class="taskbar-btn" title="Explorer">
+          <i data-lucide="folder-closed"></i>
+        </button>
+
+        <button class="taskbar-btn" title="Settings">
+          <i data-lucide="settings"></i>
+        </button>
+
+        <button class="taskbar-btn" title="Browser">
+          <i data-lucide="globe"></i>
+        </button>
+
+        <button class="taskbar-btn" title="Terminal">
+          <i data-lucide="square-terminal"></i>
+        </button>
+
+        <button class="taskbar-btn" title="Search">
+          <i data-lucide="search"></i>
+        </button>
+      </div>
+
+      <div class="taskbar-system" title="Show hidden icons">
+        <button class="taskbar-btn">
+          <i data-lucide="chevron-up"></i>
+        </button>
+
+        <button class="taskbar-btn" title="Wi-fi">
+          <i data-lucide="wifi"></i>
+        </button>
+
+        <button class="taskbar-btn" title="Volume">
+          <i data-lucide="volume-2"></i>
+        </button>
+      </div>
+    </footer>
+
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
