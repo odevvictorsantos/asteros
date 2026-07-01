@@ -1,0 +1,28 @@
+footer{
+    background: rgba(15, 23, 42, 0.55);
+    height: 50px;
+    border-top: 1px solid #384055;
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    color: var(--icons);
+
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.taskbar-menu{
+    display: flex;
+    gap: 10px;
+    justify-self: center;
+    grid-column: 2;
+}
+
+.taskbar-system{
+    justify-self: right;
+    margin-right: 20px;
+}
