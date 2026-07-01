@@ -41,8 +41,6 @@ No installation or dependencies required.
 
 ## 📸 Preview
 
-## 📸 Preview
-
 ![AsterOS Preview](assets/preview.png)
 
 ---
